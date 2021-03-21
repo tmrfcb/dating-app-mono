@@ -1,0 +1,24 @@
+{
+  "name": "Facebook",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "userApp",
+      "otherEntityRelationshipName": "facebook",
+      "relationshipName": "userApp",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20210321090955",
+  "entityTableName": "facebook",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

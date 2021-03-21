@@ -1,0 +1,29 @@
+{
+  "name": "UnmatchRelation",
+  "fields": [
+    {
+      "fieldName": "unMatchDate",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "relation",
+      "otherEntityRelationshipName": "unmatchRelation",
+      "relationshipName": "relation",
+      "ownerSide": false
+    }
+  ],
+  "changelogDate": "20210321091355",
+  "entityTableName": "unmatch_relation",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -1,0 +1,25 @@
+{
+  "datingApp": {
+    "reportUser": {
+      "home": {
+        "title": "Report Users",
+        "createLabel": "Create a new Report User",
+        "createOrEditLabel": "Create or edit a Report User",
+        "search": "Search for Report User",
+        "notFound": "No Report Users found"
+      },
+      "created": "A new Report User is created with identifier {{ param }}",
+      "updated": "A Report User is updated with identifier {{ param }}",
+      "deleted": "A Report User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Report User {{ id }}?"
+      },
+      "detail": {
+        "title": "Report User"
+      },
+      "reportId": "Report Id",
+      "userId": "User Id",
+      "cause": "Cause"
+    }
+  }
+}

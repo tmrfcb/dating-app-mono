@@ -7,6 +7,15 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "facebook": "Facebook",
+        "userApp": "User App",
+        "relation": "Relation",
+        "matchRelation": "Match Relation",
+        "unmatchRelation": "Unmatch Relation",
+        "message": "Message",
+        "reportUser": "Report User",
+        "location": "Location",
+        "country": "Country",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

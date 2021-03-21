@@ -83,6 +83,18 @@ public class CacheConfiguration {
             createCache(cm, com.tmrfcb.datingapp.domain.User.class.getName(), jcacheConfiguration);
             createCache(cm, com.tmrfcb.datingapp.domain.Authority.class.getName(), jcacheConfiguration);
             createCache(cm, com.tmrfcb.datingapp.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.Facebook.class.getName(), jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.UserApp.class.getName(), jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.UserApp.class.getName() + ".relations", jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.Relation.class.getName(), jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.MatchRelation.class.getName(), jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.MatchRelation.class.getName() + ".messages", jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.UnmatchRelation.class.getName(), jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.Message.class.getName(), jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.ReportUser.class.getName(), jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.Location.class.getName(), jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.Location.class.getName() + ".userApps", jcacheConfiguration);
+            createCache(cm, com.tmrfcb.datingapp.domain.Country.class.getName(), jcacheConfiguration);
             // jhipster-needle-redis-add-entry
         };
     }

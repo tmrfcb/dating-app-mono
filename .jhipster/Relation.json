@@ -1,0 +1,50 @@
+{
+  "name": "Relation",
+  "fields": [
+    {
+      "fieldName": "userIdOfOther",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "relationType",
+      "fieldType": "RelationType",
+      "fieldValues": "LIKE,DISLIKE,SUPERLIKE"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "matchRelation",
+      "otherEntityRelationshipName": "relation",
+      "relationshipName": "matchRelation",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "unmatchRelation",
+      "otherEntityRelationshipName": "relation",
+      "relationshipName": "unmatchRelation",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "userApp",
+      "otherEntityRelationshipName": "relation",
+      "relationshipName": "userApp",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210321091155",
+  "entityTableName": "relation",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

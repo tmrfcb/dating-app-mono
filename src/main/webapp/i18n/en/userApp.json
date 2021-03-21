@@ -1,0 +1,30 @@
+{
+  "datingApp": {
+    "userApp": {
+      "home": {
+        "title": "User Apps",
+        "createLabel": "Create a new User App",
+        "createOrEditLabel": "Create or edit a User App",
+        "search": "Search for User App",
+        "notFound": "No User Apps found"
+      },
+      "created": "A new User App is created with identifier {{ param }}",
+      "updated": "A User App is updated with identifier {{ param }}",
+      "deleted": "A User App is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User App {{ id }}?"
+      },
+      "detail": {
+        "title": "User App"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "birthDate": "Birth Date",
+      "facebook": "Facebook",
+      "relation": "Relation",
+      "location": "Location"
+    }
+  }
+}

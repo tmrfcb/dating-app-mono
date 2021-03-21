@@ -1,0 +1,10 @@
+{
+  "datingApp": {
+    "RelationType": {
+      "null": "",
+      "LIKE": "LIKE",
+      "DISLIKE": "DISLIKE",
+      "SUPERLIKE": "SUPERLIKE"
+    }
+  }
+}

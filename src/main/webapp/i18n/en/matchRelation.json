@@ -1,0 +1,25 @@
+{
+  "datingApp": {
+    "matchRelation": {
+      "home": {
+        "title": "Match Relations",
+        "createLabel": "Create a new Match Relation",
+        "createOrEditLabel": "Create or edit a Match Relation",
+        "search": "Search for Match Relation",
+        "notFound": "No Match Relations found"
+      },
+      "created": "A new Match Relation is created with identifier {{ param }}",
+      "updated": "A Match Relation is updated with identifier {{ param }}",
+      "deleted": "A Match Relation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Match Relation {{ id }}?"
+      },
+      "detail": {
+        "title": "Match Relation"
+      },
+      "matchDate": "Match Date",
+      "message": "Message",
+      "relation": "Relation"
+    }
+  }
+}

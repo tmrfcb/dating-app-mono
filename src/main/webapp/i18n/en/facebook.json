@@ -1,0 +1,23 @@
+{
+  "datingApp": {
+    "facebook": {
+      "home": {
+        "title": "Facebooks",
+        "createLabel": "Create a new Facebook",
+        "createOrEditLabel": "Create or edit a Facebook",
+        "search": "Search for Facebook",
+        "notFound": "No Facebooks found"
+      },
+      "created": "A new Facebook is created with identifier {{ param }}",
+      "updated": "A Facebook is updated with identifier {{ param }}",
+      "deleted": "A Facebook is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Facebook {{ id }}?"
+      },
+      "detail": {
+        "title": "Facebook"
+      },
+      "userApp": "User App"
+    }
+  }
+}

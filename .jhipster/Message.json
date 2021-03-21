@@ -1,0 +1,46 @@
+{
+  "name": "Message",
+  "fields": [
+    {
+      "fieldName": "senderId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "receiverId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "messageContent",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "messageTitle",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    },
+    {
+      "fieldName": "messageDate",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "matchRelation",
+      "otherEntityRelationshipName": "message",
+      "relationshipName": "matchRelation",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210321091455",
+  "entityTableName": "message",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
